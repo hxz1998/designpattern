@@ -1,6 +1,7 @@
 package com.learning.designmode.strategy;
 
 public class Context {
+	
 	private TravelStrategy mode;
 	
 	Context(TravelStrategy mode) {
