@@ -8,5 +8,25 @@
     <artifactId>designpattern</artifactId>
     <version>1.0</version>
 
+    <description>
+        该项目是个人学习设计模式所创项目。于2018年2月5日开始。
+        所有测试均使用单元测试完成。
+    </description>
 
+    <developers>
+        <developer>
+            <id>1</id>
+            <name>小忠</name>
+            <email>1466947023@qq.com</email>
+            <organization>中国矿业大学</organization>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>JUnit</groupId>
+            <artifactId>JUnit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 </project>
