@@ -44,7 +44,7 @@ Design Pattern
 |Creator|生产者，内部封装了具体的生产流程，但具体生产过程交给子类实现|
 |Product|产品接口|
 
-单例模式
+单例模式（Singleton）
 ---
 > 只能有一个实例
 
@@ -52,7 +52,7 @@ Design Pattern
 |---|---|
 |Singleton|内部将构造方法封装为`private`，对外暴露静态方法获取实例|
 
-原型模式
+原型模式（Prototype）
 ---
 > 通过复制产生实例
 
@@ -62,3 +62,12 @@ Design Pattern
 |Prototype|原型的抽象类或者接口|
 |ConcretePrototype|上下文确定需要的接口实体类|
 
+建造者模式（Builder）
+---
+> 组装复杂的实例
+
+|名称|说明|
+|---|---|
+|Director|监工，知道建造流程，知道Builder的接口但不知道具体是哪一个建造者在建造|
+|Builder|建造者抽象接口|
+|ConcreteBuilder|确定的建造者，准确知道建造细节|
