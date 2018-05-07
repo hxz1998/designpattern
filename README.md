@@ -44,7 +44,7 @@ Design Pattern
 |Creator|生产者，内部封装了具体的生产流程，但具体生产过程交给子类实现|
 |Product|产品接口|
 
-单例模式（Singleton）
+单例模式（Singleton）1
 ---
 > 只能有一个实例
 
@@ -71,3 +71,14 @@ Design Pattern
 |Director|监工，知道建造流程，知道Builder的接口但不知道具体是哪一个建造者在建造|
 |Builder|建造者抽象接口|
 |ConcreteBuilder|确定的建造者，准确知道建造细节|
+
+抽象工厂模式（Abstract Factory）
+---
+> 将关联的零件组装成产品
+
+|名称|说明|
+|---|---|
+|Abstract Product|抽象零件，封装了零件的抽象特征|
+|Abstract Factory|抽象工厂，|
+|Concrete Product|实际需要的生产零件，拓展自`Abstract Product`|
+|Concrete Factory|实际工厂，拓展自`Abstract Factory`|
