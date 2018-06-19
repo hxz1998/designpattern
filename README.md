@@ -82,3 +82,14 @@ Design Pattern
 |Abstract Factory|抽象工厂，|
 |Concrete Product|实际需要的生产零件，拓展自`Abstract Product`|
 |Concrete Factory|实际工厂，拓展自`Abstract Factory`|
+
+连接桥模式（Bridge）
+---
+> 将类的实现层次和功能层次连接起来
+
+|名称|说明|
+|---|---|
+|Display|类的功能层次结构|
+|CountDisplay|功能层次结构扩展|
+|DisplayImpl|类的实现层次结构|
+|StringDisplayImpl|类的实现层次结构扩展|
