@@ -93,3 +93,12 @@ Design Pattern
 |CountDisplay|功能层次结构扩展|
 |DisplayImpl|类的实现层次结构|
 |StringDisplayImpl|类的实现层次结构扩展|
+
+复合物模式（Composite）
+---
+> 将容器与内容保持一致性
+
+|名称|说明|
+|Entry|组合物，保持容器和内容一致性的接口|
+|Directory|组合物，可以装下自己和叶子|
+|File|叶子身份|
