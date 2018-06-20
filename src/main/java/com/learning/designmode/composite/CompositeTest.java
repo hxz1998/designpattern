@@ -2,7 +2,7 @@ package com.learning.designmode.composite;
 
 import org.junit.Test;
 
-public class Tester {
+public class CompositeTest {
 
     @Test
     public void test() {

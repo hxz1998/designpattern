@@ -102,3 +102,13 @@ Design Pattern
 |Entry|组合物，保持容器和内容一致性的接口|
 |Directory|组合物，可以装下自己和叶子|
 |File|叶子身份|
+
+装饰者模式（Decorator）
+---
+> 通过增加装饰物来增加对象功能
+
+|名称|说明|
+|Component|保持一致性的接口，具备核心接口（API）|
+|ConcreteComponent|实现了具体核心接口的类，等待被装饰|
+|Decorator|装饰者抽象接口|
+|ConcreteDecorator|具体的装饰者，增加了某种功能|
