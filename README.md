@@ -26,6 +26,7 @@ Design Pattern
     2. 对同种框架的适配
     3. Android中的适配
  
+
 模板方法（Template Method）
 ---
 > 将具体的实现交给子类处理
@@ -44,7 +45,7 @@ Design Pattern
 |Creator|生产者，内部封装了具体的生产流程，但具体生产过程交给子类实现|
 |Product|产品接口|
 
-单例模式（Singleton）1
+单例模式（Singleton）
 ---
 > 只能有一个实例
 
@@ -99,6 +100,7 @@ Design Pattern
 > 将容器与内容保持一致性
 
 |名称|说明|
+|---|---|
 |Entry|组合物，保持容器和内容一致性的接口|
 |Directory|组合物，可以装下自己和叶子|
 |File|叶子身份|
@@ -108,7 +110,19 @@ Design Pattern
 > 通过增加装饰物来增加对象功能
 
 |名称|说明|
+|---|---|
 |Component|保持一致性的接口，具备核心接口（API）|
 |ConcreteComponent|实现了具体核心接口的类，等待被装饰|
 |Decorator|装饰者抽象接口|
 |ConcreteDecorator|具体的装饰者，增加了某种功能|
+
+访问者模式（Visitor）
+---
+> 访问数据结构并处理数据
+
+|名称|说明|
+|---|---|
+|Visitor|访问者接口，提供了访问数据结构的接口|
+|ConcreteVisitor|具体的访问者，实现了数据结构访问接口|
+|Element|声明接受访问者的接口|
+|ConcreteElement|具备了数据结构的实现并且实现了接受访问者的接口|
