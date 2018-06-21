@@ -126,3 +126,13 @@ Design Pattern
 |ConcreteVisitor|具体的访问者，实现了数据结构访问接口|
 |Element|声明接受访问者的接口|
 |ConcreteElement|具备了数据结构的实现并且实现了接受访问者的接口|
+
+责任链模式（Chain of Responsibility）
+---
+> 推卸责任
+
+|名称|说明|
+|---|---|
+|Handler|处理者|
+|ConcreteHandler|具体的处理者|
+|Trouble|传递的处理数据结构|
