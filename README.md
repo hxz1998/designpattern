@@ -136,3 +136,19 @@ Design Pattern
 |Handler|处理者|
 |ConcreteHandler|具体的处理者|
 |Trouble|传递的处理数据结构|
+
+中介者模式（Mediator）
+---
+> 所有的信息都向中介者汇报处理
+
+|名称|说明|
+|---|---|
+|Colleague|同事，声明了设置中介者和中介者回调触发改变的接口|
+|Mediator|中介者，声明了创建下属同事的接口和同事发生改变时调用的中介者接口|
+|ConcreteColleague|具体的同事的实现|
+|ConcreteMediator|具体的中介者实现|
+
+* 说明
+    1. 该方式在GUI程序设计中占有很重要的模式比例。
+    2. `JTextField` 监听内容发生改变需要实现 `DocumentListener` 接口，获取到 `Document` 对象后注册。
+    

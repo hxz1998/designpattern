@@ -1,0 +1,6 @@
+package com.learning.designmode.mediator;
+
+public interface Colleague {
+    void setMediator(Mediator mediator);
+    void setColleagueEnable(boolean enable);
+}
