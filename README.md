@@ -137,6 +137,16 @@ Design Pattern
 |ConcreteHandler|具体的处理者|
 |Trouble|传递的处理数据结构|
 
+外观模式（Facade）
+---
+> 简单窗口
+
+|名称|说明|
+|---|---|
+|PageMaker|页面的生产者，使用了 `Template Method` 模式， 了解如何生产整个页面，但不清楚细节|
+|HTMLWriter|具体的文件生产者， 了解生产细节， 但是不知道整个流程， 由 `PageMaker` 决定生产流程|
+|Database|数据存放文件|
+
 中介者模式（Mediator）
 ---
 > 所有的信息都向中介者汇报处理
