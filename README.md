@@ -95,6 +95,15 @@ Design Pattern
 |DisplayImpl|类的实现层次结构|
 |StringDisplayImpl|类的实现层次结构扩展|
 
+策略模式（Strategy）
+---
+> 整体替换算法实现
+
+|名称|说明|
+|---|---|
+|Strategy|算法实现接口，需要具体的算法实现类实现它|
+|ConcreteStrategy|具体的算法，对于同一件事提供多个实现类|
+
 复合物模式（Composite）
 ---
 > 将容器与内容保持一致性
