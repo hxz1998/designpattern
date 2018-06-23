@@ -170,4 +170,18 @@ Design Pattern
 * 说明
     1. 该方式在GUI程序设计中占有很重要的模式比例。
     2. `JTextField` 监听内容发生改变需要实现 `DocumentListener` 接口，获取到 `Document` 对象后注册。
-    
+
+观察者模式（Observer）
+---
+> 发送状态变化通知
+
+|名称|说明|
+|---|---|
+|Observer|观察者接口，定义了主题通知观察者状态变化所用的接口|
+|Subject|主题接口，定义了通知观察者状态发生改变的接口|
+|ConcreteObserver|具体的观察者，实现了观察者接口中未实现的接口|
+|ConcreteSubject|具体的主题，当主题内部数据内容发生变化后通知观察者|
+
+* 说明
+    1. JDK中自带 `Observer` 和 `Observable` 接口使用，但不好用。
+    2. 该模式也称为**发布-订阅**模式 
