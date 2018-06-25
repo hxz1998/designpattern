@@ -206,3 +206,14 @@ Design Pattern
 |State|状态类接口，声明了所有要使用的状态方法|
 |ConcreteState|具体的状态类实现，一般使用单例模式获取实例|
 
+轻量级模式（Flyweight）
+---
+> 共享对象，避免浪费
+
+|名称|说明|
+|---|---|
+|Flyweight|轻量级，被共享的类|
+|FlyweightFactory|轻量级工厂，用来产生轻量级对象|
+|Client|请求者，从轻量级工厂获取共享对象|
+
+
