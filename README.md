@@ -225,3 +225,18 @@ Design Pattern
 |Proxy|代理人，可以完成一部分工作，但是重要的工作完不成时交给 `RealSubject` 来完成|
 |Subject|主体接口，被代理的对象，内部可能有消耗资源的实例生成过程|
 |RealSubject|真正的主体实现类|
+
+命令模式（Command）
+---
+> 命令也是类
+
+|名称|说明|
+|---|---|
+|Command|命令接口，定义了命令的接口，该处的 `Command` |
+|ConcreteCommand|具体的命令实现类，该处的 `DrawCommand` |
+|Receiver|接收者，命令的接收者，该处的 `DrawCanvas` |
+|Clint|请求者，该处的 `Main` 类，生成 `ConcreteCommand` 来发送给 `Receiver`|
+|Invoker|开始执行命令的类，会调用 `Command` 接口中声明的方法，该处的 `DrawCanvas`|
+
+---
+**设计模式告一段落**
