@@ -4,7 +4,7 @@ public class Green implements Color {
 
 	@Override
 	public void fill() {
-		System.out.println("Í¿ÉÏÁËÂÌÉ«");
+		System.out.println("æ¶‚ä¸Šäº†ç»¿è‰²");
 	}
 
 }

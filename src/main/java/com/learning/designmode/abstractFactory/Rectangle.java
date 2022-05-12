@@ -4,7 +4,7 @@ public class Rectangle implements Shape {
 
 	@Override
 	public void draw() {
-		System.out.println("»­ÁËÒ»¸ö·½¿é");
+		System.out.println("ç”»äº†ä¸€ä¸ªæ–¹å—");
 	}
 
 }

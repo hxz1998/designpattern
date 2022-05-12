@@ -10,12 +10,12 @@ public class TemplateMethodImpl extends TemplateMethod {
 
     @Override
     protected void open() {
-        System.out.println(getClass().getName() + "open");
+        System.out.println(getClass().getName() + " open");
     }
 
     @Override
     protected void close() {
-        System.out.println(getClass().getName() + "close");
+        System.out.println(getClass().getName() + " close");
     }
 
     @Override

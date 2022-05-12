@@ -4,7 +4,7 @@ public class Circle implements Shape {
 
 	@Override
 	public void draw() {
-		System.out.println("»­ÁËÒ»¸öÔ²È¦");
+		System.out.println("ç”»äº†ä¸€ä¸ªåœ†åœˆ");
 	}
 
 }

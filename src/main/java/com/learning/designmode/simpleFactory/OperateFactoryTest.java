@@ -2,7 +2,6 @@ package com.learning.designmode.simpleFactory;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import com.learning.designmode.*;
 
 public class OperateFactoryTest {
 
